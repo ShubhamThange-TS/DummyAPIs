@@ -1,0 +1,17 @@
+.footer {
+    background-color: #155697;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.social-links i {
+    font-size: 24px;
+    margin: 0 10px;
+}
