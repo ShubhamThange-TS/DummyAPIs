@@ -1,0 +1,16 @@
+<div class="forgot-pass">
+    <img class="myImg" src="assets/forgot-password.png" height="150px" width="230px">
+    <h2>Forgot Password !</h2>
+    <form [formGroup]="sendotpForm" (ngSubmit)="SendOTP()" class="common-form">
+        <div>
+            <input class="form-input" type="tel" formControlName="MobileNumber" placeholder="Mobile Number" />
+            <div class="error-p" *ngIf="sendotpForm.get('MobileNumber')?.errors && sendotpForm.get('MobileNumber')?.touched">
+                Please Enter Valid Mobile Number.
+            </div>
+        </div>
+        <button class="form-button" type="submit"  (click)="SendOTP">Send OTP</button>
+        <div *ngIf="successMessage" style="color: green;">
+            {{ successMessage }}
+          </div>
+    </form>
+</div>

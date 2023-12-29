@@ -1,0 +1,100 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #155697;
+    margin: -10px;
+
+}
+
+.nav h1 {
+    color: white;
+    margin: 10px;
+    margin-left: 35px;
+    font-size: 40px;
+}
+
+.nav .nav-search {
+    flex: 1;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+.nav .nav-search input {
+    flex: 1;
+    color: black;
+    border: 1px solid black;
+    height: 39px;
+
+    border-right: none;
+}
+
+.nav .nav-search button {
+    color: black;
+    border: 1px solid black;
+    height: 39px;
+    width: 80px;
+}
+
+.nav ul {
+    display: inline-flex;
+
+    margin: 10px;
+    margin-right: px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.nav ul li {
+    padding-left: 50px;
+    margin-right: 1px;
+    padding-top: 10px;
+   
+
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.suggested-search {
+    position: absolute;
+    top: 40px;
+    z-index: 10;
+    display: list-item !important;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 300px;
+
+}
+
+.suggested-search li {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.suggested-search li a {
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.div,
+.ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}

@@ -1,0 +1,24 @@
+<nav class="nav">
+    <h1><a routerLink="/">BizHolic</a> </h1>
+    <div *ngIf="menuType==='default'" class="nav-search">
+        <input type="text" placeholder="Search Products" />
+        <button>Search</button>
+    </div>
+
+    <div [ngSwitch]="menuType">
+        <ul *ngSwitchCase="'default'">
+            <li><a routerLink="">Home</a></li>
+            <li><a routerLink="user-auth">LogIn</a></li>
+            <li><a routerLink="">Notification</a></li>  
+        </ul>
+
+        <ul *ngSwitchCase="'user'">
+            <li><a routerLink="/seller-auth">BecomeSeller</a></li>
+            <li><a routerLink="/seller-home">Product List</a></li>
+            <li><a routerLink="/seller-add-product">Add Product</a></li>
+            <li><a routerLink="">Notification</a></li>
+            <li><a (click)="Logout()">Logout</a></li>
+            <li><a href="#">{{userName}}</a></li>
+        </ul>
+    </div>
+</nav>

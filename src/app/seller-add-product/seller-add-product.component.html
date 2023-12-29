@@ -1,0 +1,23 @@
+<div class="add-product">
+    <h1>Add New Product</h1>
+    <p class="p-message">{{addProductMessage}}</p>
+    <form #addProduct="ngForm" (ngSubmit)="submit(addProduct.value)" class="common-form">
+        <input type="text" class="form-input" name="ProductTitle" placeholder="Enter Product Title" ngModel />
+        <!-- <input type="text" class="form-input" name="ProductID" placeholder="Enter Product ID" ngModel /> -->
+        <input type="number" class="form-input" name="ProductPrice" placeholder="Enter Product Price" ngModel step="0.01"/>
+        <input type="text" class="form-input" name="ProductColor" placeholder="Enter Product Color" ngModel />
+        <input type="text" class="form-input" name="ProductType" placeholder="Enter Product Type" ngModel />
+        <input type="number" class="form-input" name="ProductDiscount" placeholder="Enter Product Discount" ngModel step="0.01"/>
+        <textarea type="text" class="form-input" name="ProductDescription" placeholder="Enter Product Description"
+            ngModel></textarea>
+        <input type="text" class="form-input" name="ProductSpecification" placeholder="Enter Product Specification" ngModel />
+        <input type="number" class="form-input" name="ProductQuantity" placeholder="Enter Product Quantity" ngModel />
+        <input type="text" class="form-input" name="ProductVideoPath" placeholder="Enter Product Video Path" ngModel />
+        <input type="text" class="form-input" name="ProductImagePath1" placeholder="Enter Product Image Path1" ngModel />
+        <input type="text" class="form-input" name="ProductImagePath2" placeholder="Enter Product Image Path2" ngModel />
+        <input type="text" class="form-input" name="ProductImagePath3" placeholder="Enter Product Image Path3" ngModel />
+        <input type="text" class="form-input" name="ProductImagePath4" placeholder="Enter Product Image Path4" ngModel />
+        <input type="text" class="form-input" name="ProductImagePath5" placeholder="Enter Product Image Path5" ngModel />
+        <button class="form-button" type="submit">Add Product</button>
+    </form>
+</div>

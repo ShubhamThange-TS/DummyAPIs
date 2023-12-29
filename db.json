@@ -1,0 +1,94 @@
+{
+  "seller": [
+    {
+      "FirstName": "Shubham",
+      "LastName": "Thange",
+      "Email": "shubham@gmail.com",
+      "MobileNumber": "9405867151",
+      "CreatePassword": "Shubh@123",
+      "DatOfBirth": "05/02/1998",
+      "Address": "Shahu colony, Cummins College Road, Karve Nagar",
+      "CommunicationAddress": "19, Sai Dham, Lane Number 6",
+      "Gender": "male",
+      "Language": "Marathi",
+      "id": 1
+    },
+    {
+      "FirstName": "",
+      "LastName": "",
+      "Email": "",
+      " MobileNumber": "",
+      "CreatePassword": "",
+      "DatOfBirth": "",
+      "Address": "",
+      "CommunicationAddress": "",
+      "Gender": "",
+      "Language": "",
+      "id": 2
+    },
+    {
+      "FirstName": "",
+      "LastName": "",
+      "Email": "",
+      " MobileNumber": "",
+      "CreatePassword": "",
+      "DatOfBirth": "",
+      "Address": "",
+      "CommunicationAddress": "",
+      "Gender": "",
+      "Language": "",
+      "id": 3
+    },
+    {
+      "FirstName": "Shubham",
+      "LastName": "Thange",
+      "Email": "shubham@gmail.com",
+      "UserID": "9405867151",
+      "CreatePassword": "Shubh@123",
+      "DatOfBirth": "05-02-1998",
+      "Address": "Shahu colony, Cummins College Road, Karve Nagar",
+      "CommunicationAddress": "19, Sai Dham, Lane Number 6",
+      "Gender": "Male",
+      "Language": "Marathi",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "ProductName": "IPhone 14",
+      "ProductPrice": "1,00,000",
+      "ProductColor": "Blue",
+      "ProductCategory": "Mobiles",
+      "ProductDescription": "Good",
+      "ProductImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": 1
+    },
+    {
+      "ProductName": "IPhone 14",
+      "ProductPrice": "1,00,000",
+      "ProductColor": "White",
+      "ProductCategory": "Mobiles",
+      "ProductDescription": "Good Product",
+      "ProductImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": 2
+    },
+    {
+      "ProductName": "HP Pavallion 360",
+      "ProductPrice": "80,000",
+      "ProductColor": "Silver",
+      "ProductCategory": "Laptop",
+      "ProductDescription": "Very Good Product",
+      "ProductImage": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "id": 3
+    },
+    {
+      "ProductName": "IPhone 14",
+      "ProductPrice": "80,000",
+      "ProductColor": "Bkack",
+      "ProductCategory": "Mobiles",
+      "ProductDescription": "Good Product",
+      "ProductImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+.forgot-pass {
+  max-width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgb(102, 99, 99);
+  border-radius: 30px;
+  background-color: #D6C0AC;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+.error-p {
+  color: red;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.common-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #D6C0AC;
+}
+
+.form-input {
+  margin: 5px;
+  margin-bottom: 15px;
+  margin-left: 60px;
+  margin-right: 20px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.form-button {
+  margin-left: 90px;
+  margin-right: 90px;
+  background-color: #155697;
+  color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #007bff;
+}
+
+.form-input label {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.success-message{
+  text-align: center;
+  color: green;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,44 @@
+
+<div class="seller-auth">
+    <div *ngIf="!showLogin" class="sign-up">
+        <h1>User Sign-Up</h1>
+        <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form">
+            <input class="form-input" type="text" ngModel name="Name" placeholder="Enter Name" />
+            
+            <input class="form-input" type="email" ngModel name="EmailAddress" placeholder="Enter Email" />
+            <input class="form-input" type="text" ngModel name="MobileNumber" placeholder="Enter Mobile Number" />
+            <input class="form-input" type="password" ngModel name="CreatePassword" placeholder="Create Password" />
+           
+            <div class="form-input">
+                <label>
+                    <input type="radio" ngModel name="Gender" value="male" /> Male
+                </label>
+                <label>
+                    <input type="radio" ngModel name="Gender" value="female" /> Female
+                </label>
+                <label>
+                    <input type="radio" ngModel name="Gender" value="other" /> Other
+                </label>
+            </div>
+           
+            <button class="form-button">Sign-Up</button>
+            <a class="auth-toggle-link" (click)="openLogin()">Already have account? Click for Login</a>
+        </form>
+        <div *ngIf="isRegistrationSuccessful" class="success-message">
+            User registered successfully!
+          </div>
+    </div>
+
+
+    <!-- LogIn  Page  -->
+
+    <div *ngIf="showLogin" class="login">
+        <h1>User Log-In</h1>
+        <p class="error-p" *ngIf="authError">{{ authError }}</p>
+        <form #userLogin="ngForm" (ngSubmit)="Login(userLogin.value)" class="common-form">
+            <input class="form-input" type="text" ngModel name="MobileNumber" placeholder="Enter Mobile Number" />
+            <button class="form-button">Request-OTP</button>
+            <a class="auth-toggle-link" (click)="openSignUp()">Don't have an account? Click for SingUp</a>
+        </form>
+    </div>
+</div>

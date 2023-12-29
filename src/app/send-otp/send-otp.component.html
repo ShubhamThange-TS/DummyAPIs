@@ -1,0 +1,8 @@
+
+<div class="send-otp">
+    <h1>Send Otp</h1>
+    <form #SendOtp="ngForm" class="common-form">
+        <input class="form-input" type="text" ngModel name="MobileNumber" placeholder="Enter Mobile Number" />
+        <button class="form-button" (click)="sendOTP(SendOtp.value.MobileNumber)">Request-OTP</button>
+    </form>
+</div>

@@ -1,0 +1,70 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+.add-product {
+  text-align: center;
+}
+
+.add-product {
+  max-width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgb(102, 99, 99);
+  border-radius: 30px;
+  background-color: #D6C0AC;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.error-p {
+  color: red;
+}
+
+.common-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #D6C0AC;
+}
+
+.form-input {
+  margin: 5px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.form-button {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #155697;
+  color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #007bff;
+}
+
+span {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.auth-toggle-link {
+  margin-top: 10px;
+  text-align: center;
+  color: #007bff;
+  cursor: pointer;
+}

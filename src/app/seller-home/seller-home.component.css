@@ -1,0 +1,55 @@
+
+.product-list {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+thead {
+    background-color: lightyellow;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+}
+
+img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+}
+
+.p-message {
+    margin-top: 10px;
+    color: #777;
+}
+
+.adjust-update-link {
+    margin-left: 20px;
+}
+
+.fa-icon {
+    cursor: pointer;
+    color: #555;
+    margin-right: 5px;
+}
+
+.fa-icon:hover {
+    color: #ff6347; 
+}

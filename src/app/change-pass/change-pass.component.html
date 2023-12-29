@@ -1,0 +1,14 @@
+
+<div class="change-pass" >
+        <h2>Change Password !</h2>
+        <p [ngClass]="messageColorClass">{{ updateMessage }}</p>
+    <!-- <p class="error-p"></p> -->
+    <form  class="common-form" (ngSubmit)="updatePassword()">
+        <input class="form-input" type="password" [(ngModel)]="CreateNewPassword"  name="CreateNewPassword" placeholder="Enter New Password" />
+        <input class="form-input" type="password" [(ngModel)]="ConfirmCreateNewPassword" name="ConfirmCreateNewPassword" placeholder="Confirm New Password" />
+
+        <button type="submit" class="form-button">Update-Pass</button>
+        
+    </form>
+</div>
+
